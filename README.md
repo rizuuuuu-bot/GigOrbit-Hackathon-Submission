@@ -1,7 +1,7 @@
 # 🚀 GigOrbit - Next-Gen Autonomous Service Marketplace
 
 ![Hackathon Ready](https://img.shields.io/badge/Status-Hackathon_Ready-success?style=for-the-badge)
-![AI Powered](https://img.shields.io/badge/Powered_by-Google_Gemini-blue?style=for-the-badge)
+![Powered By](https://img.shields.io/badge/Engine-Google_Vertex_AI-blue?style=for-the-badge)
 ![Tech Stack](https://img.shields.io/badge/Stack-Node.js_|_Tailwind_CSS-black?style=for-the-badge)
 
 **GigOrbit** is an AI-driven, two-sided gig economy platform designed to seamlessly connect customers with verified home service professionals (Plumbers, Electricians, AC Technicians, etc.) using the power of Generative AI. 
@@ -15,7 +15,7 @@ Finding reliable, verified, and transparently priced home service workers in the
 Unlike standard prototypes, **GigOrbit is a fully dynamic engine.** Every worker proposed by the AI is fetched live from our backend database (`workers.json`). The Trust Cards, WhatsApp links, and distances are generated dynamically based on live AI output and Haversine proximity calculations. What you see is a real, breathing software architecture.
 
 ## ✨ Hackathon-Winning Features
-* 🤖 **Autonomous AI Matchmaking:** Powered by the Gemini API. Users chat naturally in English or Roman Urdu. The AI parses the intent, scans the database, calculates real-world distances using the Haversine formula, and proposes the absolute best worker for the job.
+* 🤖 **Autonomous AI Matchmaking:** Powered by **Google Vertex AI**. Users chat naturally in English or Roman Urdu. The AI parses the intent, scans the database, calculates real-world distances using the Haversine formula, and proposes the absolute best worker for the job.
 * 🛡️ **Premium Trust Layer:** The informal economy lacks trust. We built simulated **KYC Verification** badges (NADRA/Police verified) and a **GigWallet Escrow** visual system to guarantee user confidence before they book.
 * 🔄 **Real-Time Two-Sided Sync:** A fully functional dual-interface for Customers and Partners. When a customer books a job, it instantly pings the dynamic Partner Dashboard via cross-tab storage sync, allowing the worker to accept the job in real-time.
 * ⭐ **Dynamic Rating Engine:** A true closed-loop feedback system. Completing a job triggers a rating modal that dynamically writes back to the server. The AI learns from this database update and adjusts future recommendations based on the worker's new performance score.
@@ -32,13 +32,13 @@ Unlike standard prototypes, **GigOrbit is a fully dynamic engine.** Every worker
 * **Frontend:** Vanilla JavaScript (ES6), HTML5, Tailwind CSS. (SPA Architecture)
 * **Backend:** Node.js, Express.js.
 * **Database:** JSON/FS File System (Mock Data for Hackathon Demo).
-* **AI Engine:** Google Gemini API.
+* **AI Engine:** Google Vertex AI.
 
 ## 🚀 How to Run Locally
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/rizuuuuu-bot//GigOrbit-Hackathon-Submission.git
+   git clone https://github.com/rizuuuuu-bot/GigOrbit-Hackathon-Submission.git
    cd GigOrbit-Hackathon-Submission
    ```
 
@@ -47,10 +47,11 @@ Unlike standard prototypes, **GigOrbit is a fully dynamic engine.** Every worker
    npm install
    ```
 
-3. **Set up Environment Variables:**
-   Create a `.env` file in the root directory and add your Gemini API Key:
+3. **Configure Authentication:**
+   GigOrbit uses Google Vertex AI. Place your `credentials.json` (Service Account Key) file in the root directory and create a `.env` file with the following:
    ```env
-   GEMINI_API_KEY=your_google_gemini_api_key_here
+   GOOGLE_APPLICATION_CREDENTIALS="./credentials.json"
+   PROJECT_ID="your-google-cloud-project-id"
    PORT=3000
    ```
 
