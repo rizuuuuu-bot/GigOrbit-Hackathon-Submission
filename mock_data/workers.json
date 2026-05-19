@@ -1,0 +1,291 @@
+[
+  {
+    "id": 1,
+    "name": "Ahmed Raza",
+    "skill": "Plumber",
+    "rating": 4.8,
+    "base_price": 1500,
+    "lat": 33.5651,
+    "lng": 73.0169,
+    "reliability_score": 92,
+    "availability": true,
+    "review_recency_days": 2,
+    "whatsapp_number": "+923001234567",
+    "experience_years": 8,
+    "completed_jobs": 145,
+    "password": "786",
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "perfect\n",
+        "date": "2026-05-19T20:06:54.884Z"
+      },
+      {
+        "rating": 5,
+        "text": "",
+        "date": "2026-05-19T20:50:59.905Z"
+      },
+      {
+        "rating": 4,
+        "text": "",
+        "date": "2026-05-19T22:28:15.235Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Tariq Ali",
+    "skill": "AC Technician",
+    "rating": 4.5,
+    "base_price": 2000,
+    "lat": 33.589,
+    "lng": 73.0551,
+    "reliability_score": 85,
+    "availability": true,
+    "review_recency_days": 5,
+    "whatsapp_number": "+923339876543",
+    "experience_years": 5,
+    "completed_jobs": 89,
+    "password": "786"
+  },
+  {
+    "id": 3,
+    "name": "Bilal Khan",
+    "skill": "Electrician",
+    "rating": 4.9,
+    "base_price": 1200,
+    "lat": 33.6007,
+    "lng": 73.0479,
+    "reliability_score": 98,
+    "availability": false,
+    "review_recency_days": 1,
+    "whatsapp_number": "+923451122334",
+    "experience_years": 12,
+    "completed_jobs": 320,
+    "password": "786"
+  },
+  {
+    "id": 4,
+    "name": "Usman Shah",
+    "skill": "Carpenter",
+    "rating": 4.2,
+    "base_price": 2500,
+    "lat": 33.6218,
+    "lng": 73.0811,
+    "reliability_score": 78,
+    "availability": true,
+    "review_recency_days": 12,
+    "whatsapp_number": "+923125566778",
+    "experience_years": 3,
+    "completed_jobs": 42,
+    "password": "786"
+  },
+  {
+    "id": 5,
+    "name": "Zain Qureshi",
+    "skill": "Painter",
+    "rating": 4.7,
+    "base_price": 3000,
+    "lat": 33.552,
+    "lng": 73.005,
+    "reliability_score": 90,
+    "availability": true,
+    "review_recency_days": 3,
+    "whatsapp_number": "+923019988776",
+    "experience_years": 7,
+    "completed_jobs": 210,
+    "password": "786"
+  },
+  {
+    "id": 6,
+    "name": "Kamran Javed",
+    "skill": "AC Technician",
+    "rating": 4.6,
+    "base_price": 1800,
+    "lat": 33.577,
+    "lng": 73.032,
+    "reliability_score": 88,
+    "availability": true,
+    "review_recency_days": 4,
+    "whatsapp_number": "+923214455667",
+    "experience_years": 6,
+    "completed_jobs": 115,
+    "password": "786",
+    "reviews": [
+      {
+        "rating": 4,
+        "text": "",
+        "date": "2026-05-19T22:05:39.576Z"
+      },
+      {
+        "rating": 5,
+        "text": "",
+        "date": "2026-05-19T22:06:26.304Z"
+      },
+      {
+        "rating": 5,
+        "text": "",
+        "date": "2026-05-19T22:17:11.975Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sohail Mirza",
+    "skill": "Electrician",
+    "rating": 4.4,
+    "base_price": 1000,
+    "lat": 33.5612,
+    "lng": 73.023,
+    "reliability_score": 82,
+    "availability": true,
+    "review_recency_days": 7,
+    "whatsapp_number": "+923348877665",
+    "experience_years": 4,
+    "completed_jobs": 67,
+    "password": "786"
+  },
+  {
+    "id": 8,
+    "name": "Faisal Bhatti",
+    "skill": "Mechanic",
+    "rating": 4.8,
+    "base_price": 1500,
+    "lat": 33.6105,
+    "lng": 73.0502,
+    "reliability_score": 95,
+    "availability": true,
+    "review_recency_days": 1,
+    "whatsapp_number": "+923005544332",
+    "experience_years": 15,
+    "completed_jobs": 450,
+    "password": "786"
+  },
+  {
+    "id": 9,
+    "name": "Imran Hashmi",
+    "skill": "Generator Technician",
+    "rating": 4.9,
+    "base_price": 2500,
+    "lat": 33.595,
+    "lng": 73.065,
+    "reliability_score": 96,
+    "availability": true,
+    "review_recency_days": 2,
+    "whatsapp_number": "+923452233445",
+    "experience_years": 10,
+    "completed_jobs": 280,
+    "password": "786"
+  },
+  {
+    "id": 10,
+    "name": "Waqas Gujjar",
+    "skill": "Plumber",
+    "rating": 4.1,
+    "base_price": 1200,
+    "lat": 33.63,
+    "lng": 73.07,
+    "reliability_score": 75,
+    "availability": true,
+    "review_recency_days": 15,
+    "whatsapp_number": "+923136677889",
+    "experience_years": 2,
+    "completed_jobs": 30,
+    "password": "786",
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "perfect\n",
+        "date": "2026-05-19T20:28:27.533Z"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Yasir Mahmood",
+    "skill": "Painter",
+    "rating": 4.6,
+    "base_price": 2800,
+    "lat": 33.58,
+    "lng": 73.02,
+    "reliability_score": 87,
+    "availability": true,
+    "review_recency_days": 5,
+    "whatsapp_number": "+923021122334",
+    "experience_years": 5,
+    "completed_jobs": 95,
+    "password": "786"
+  },
+  {
+    "id": 12,
+    "name": "Asadullah",
+    "skill": "Home Cleaner",
+    "rating": 4.7,
+    "base_price": 800,
+    "lat": 33.605,
+    "lng": 73.04,
+    "reliability_score": 91,
+    "availability": true,
+    "review_recency_days": 0,
+    "whatsapp_number": "+923335566778",
+    "experience_years": 4,
+    "completed_jobs": 160,
+    "password": "786"
+  },
+  {
+    "id": 1779221237692,
+    "name": "kamran nizami",
+    "phone": "03152313499",
+    "password": "786",
+    "skill": "AC Technician",
+    "rating": 4.6,
+    "base_price": 1800,
+    "reliability_score": 91,
+    "availability": true,
+    "review_recency_days": 1,
+    "whatsapp_number": "+923152313499",
+    "experience_years": 4,
+    "completed_jobs": 88,
+    "lat": 33.619963162200435,
+    "lng": 73.01310972410303,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "Very professional, fixed AC quickly!",
+        "date": "2026-05-19T21:18:22.565Z"
+      },
+      {
+        "rating": 3,
+        "text": "Good work but arrived late.",
+        "date": "2026-05-19T21:43:43.689Z"
+      },
+      {
+        "rating": 3,
+        "text": "Average service.",
+        "date": "2026-05-19T21:54:54.271Z"
+      },
+      {
+        "rating": 4,
+        "text": "perfect",
+        "date": "2026-05-19T22:39:37.304Z"
+      },
+      {
+        "rating": 5,
+        "text": "perfect",
+        "date": "2026-05-19T22:41:35.886Z"
+      }
+    ]
+  },
+  {
+    "id": 1779226547419,
+    "name": "test1",
+    "phone": "03152313499",
+    "password": "786",
+    "skill": "Painter",
+    "rating": 5,
+    "reliability": 100,
+    "availability": true,
+    "lat": 33.61998840804257,
+    "lng": 73.01309439133647
+  }
+]
